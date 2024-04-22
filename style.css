@@ -2,9 +2,9 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #62dae2;
-    --fundo-senha: #255399;
-    --fundo-texto: #255399;
+    --cor-de-fundo: #d8a9d6;
+    --fundo-senha: #862599;
+    --fundo-texto: #d673a1;
     --borda: #ffffff;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -20,6 +20,13 @@ body{
     font-family: var(--roboto);
 }
 
+                </div>               
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Características da senha</h4>
+                    <div class="parametro-senha-checkbox">
+                        <input name="maiusculo" type="checkbox" class="checkbox" checked>
+                        <label for="maiusculo">Letras maiúsculas</label>
+                    </div>
 .titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
@@ -128,14 +135,14 @@ label{
 }
 .fraca{
     width: 25%;
-    background-color: #dd4a5b; 
+    background-color: #ec5365; 
 }
 .media{
-    background-color: #cecb1e;
+    background-color: #fffb00;
     width: 50%;
 }
 .forte{
-    background-color: #00FF85;
+    background-color: #00ff84;
     width: 100%;
 }
 
